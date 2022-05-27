@@ -1,0 +1,61 @@
+.awesome-heading--title {  
+    margin: 104px 0 50px 0;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+}
+hr {
+    width: 170px;
+    height: 0;
+    border: 1px solid;
+    color: #EC7979;
+    margin: 0 auto;
+    background-color: #EC7979;
+}
+.awesome-heading--subtitle {
+    padding: 40px 0 80px 0;
+    font-size: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+    text-align: center;
+}
+.awesome-icons {
+    display: flex;
+    justify-content: space-around;    
+    width: 100%;
+    margin: 0 auto;
+}
+/*-----текст под иконками----*/
+.awesome-main {
+    display: flex;
+    justify-content: space-around;    
+    margin: 0 auto;
+}
+.awesome-main--text {
+    margin: 0 0 58px;    
+}
+
+.awesome-main--title {
+    text-align: center;
+    font-family: Open sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+    margin: 0 0 40px 0;
+}
+.awesome-main--title h2 {
+    width: 369px;
+    height: 100px;
+    margin: 0 auto;
+}
+.awesome--description {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+    text-align: center;
+}
