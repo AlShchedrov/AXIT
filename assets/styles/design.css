@@ -1,4 +1,4 @@
-.content--design {
+.design {
     background-image: url(/assets/img/design/bg.png);
     background-color: #00000010;
     background-size: cover;
@@ -34,12 +34,8 @@
     text-align: center;
     margin: 40px 0 0;
 }
-.design--button {
-    display: flex;
-    padding: 70px 0 50px 0;
-}
 .design--btn {
-    margin: 0 auto;
+    margin: 70px auto 50px;
     width: 370px;
     height: 57px;
     background: transparent;
