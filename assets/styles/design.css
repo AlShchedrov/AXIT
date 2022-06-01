@@ -32,10 +32,10 @@
     line-height: 21px;
     color: #fff;
     text-align: center;
-    margin: 40px 0 0;
+    padding: 40px 0 73px;
 }
 .design--btn {
-    margin: 70px auto 50px;
+    margin: 0 auto 50px;
     width: 370px;
     height: 57px;
     background: transparent;
