@@ -1,0 +1,93 @@
+.title {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 104px 0 94px 0;
+    text-align: center;
+}
+.line {
+    width: 170px;
+	height: 1px;
+	background-color: #ec7979;
+    margin: 0 auto;
+}
+.subtitle {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    padding: 40px 0;
+    text-align: center;
+}
+.contact--form {
+    display: flex;
+    margin: 40px 0 50px;
+}
+.contact--form-input {
+    max-height: 260px;
+    height: 100%;
+    margin: 0 20px 0 0;
+}
+.contact--input {
+    display: block;    
+    width: 570px;  
+    margin: 0 auto;  
+    background-color: #fff;        
+    border: none;  
+    border-bottom: 1px solid #bdbdbd;  
+    text-align: start;  
+    padding: 30px 0 20px;
+}
+
+.contact--form-message {
+    display: block;
+    width: 570px; 
+    margin: 30px 0 0 0;  
+    background-color: #fff;        
+    border: none;  
+    border-bottom: 1px solid #bdbdbd;  
+    text-align: start;
+    padding: 0 0 152px 0;
+}
+.contact--submit {
+    display: flex;
+    justify-content: center;
+}
+.contact--button {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    background-color: #EC7979;
+    width: 370px;
+    height: 58px;
+    border: none;
+	outline: none;
+    margin: 50px 0;        
+}
+/*----footer----*/
+
+.contacts--footer {
+    width: 100%;
+    background-color: #000;   
+    max-height: 164px;
+    height: 100%; 
+}
+.contacts--links {
+    display: flex;
+    justify-content: center;
+}
+.contacts--links a {
+    padding: 35px 15px 0 0;
+}
+.copyright {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF80;
+    text-align: center;
+    padding: 30px 0 27px;
+}

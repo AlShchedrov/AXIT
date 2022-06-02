@@ -1,0 +1,52 @@
+.design {
+    background-image: url(/assets/img/design/bg.png);
+    background-color: #00000010;
+    background-size: cover;
+    background-position: center;
+    max-width: 1510px;
+    width: 100%;
+    max-height: 442px;
+    height: 100%;
+    display: block;
+    background-attachment: fixed;
+}
+.design--title {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #fff;
+    text-align: center;
+    padding: 105px 0 55px;
+}
+.design--line {
+    width: 170px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.design--subtitle {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0 73px;
+}
+.design--btn {
+    margin: 0 auto 50px;
+    width: 370px;
+    height: 57px;
+    background: transparent;
+    font-family: Open sans;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #fff;    
+}
+.design--btn:hover {
+    background-color: #00000085;
+    color: rgb(241, 231, 231);
+    transition: 1s;
+}

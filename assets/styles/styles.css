@@ -1,6 +1,10 @@
 @import url(/assets/styles/axit.css);
 @import url(/assets/styles/awesome.css);
 @import url(/assets/styles/pricing.css);
+@import url(/assets/styles/design.css);
+@import url(/assets/styles/contacts.css);
+@import url(/assets/styles/customers.css);
+
 * {
     margin: 0;
     padding: 0;
