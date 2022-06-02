@@ -9,6 +9,9 @@
     display: block;
     background-attachment: fixed;
 }
+.content--design {
+    padding-bottom: 40px;
+}
 .design--title {
     font-family: Raleway;
     font-size: 36px;
@@ -34,6 +37,7 @@
     padding: 40px 0 73px;
 }
 .design--btn {
+    display: block;
     margin: 0 auto 50px;
     width: 370px;
     height: 57px;
