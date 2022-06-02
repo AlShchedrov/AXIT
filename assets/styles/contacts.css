@@ -1,26 +1,4 @@
-.title {
-    font-family: Raleway;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    margin: 104px 0 94px 0;
-    text-align: center;
-}
-.line {
-    width: 170px;
-	height: 1px;
-	background-color: #ec7979;
-    margin: 0 auto;
-}
-.subtitle {
-    font-family: Raleway;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #86878B;
-    padding: 40px 0;
-    text-align: center;
-}
+
 .contact--form {
     display: flex;
     margin: 40px 0 50px;

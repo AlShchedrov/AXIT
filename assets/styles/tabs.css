@@ -1,0 +1,103 @@
+.tabs--list {
+    display: flex;
+    justify-content: start;   
+    padding: 109px 0 0;
+}
+/*-----таб ссылки-----*/
+.tabs--link-active {
+    display: block;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333;
+    width: 150px;    
+    padding: 0 0 0 50px;
+    border-left: 1px solid #C6CBCD;
+    border-top: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;    
+}
+.tabs--link-second {
+    display: block;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333;
+    width: 265px;
+    padding-left: 90px;
+    border-bottom: 1px solid #C6CBCD;
+}
+.tabs--link-third {
+    display: block;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333;
+    width: 755px;
+    padding-left: 10px;
+    border-bottom: 1px solid #C6CBCD;
+}
+.main-tabs--info {
+    display: inline-block;
+    padding: 27px 20px 27px 74px;
+    vertical-align: top;
+}
+/*-----основной контент-------*/
+.main-tabs {    
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid #C6CBCD;
+    border-bottom: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+}
+/*----заголовок--------*/
+.main-tabs--title {
+    display: flex;
+    max-width: 570px;margin: 47px 0;
+    text-align: center;
+    align-items: center; 
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40.85px;
+    color: #000;
+}
+/*------подзаголовок------*/
+.main-tabs--subtitle {
+    display: flex;
+    max-width: 570px;
+    margin: 0 0 27px;
+    align-items: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    color: #000;    
+}
+/*-----кнопка download------*/
+.main-tabs--button {   
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    background-color: #EC7979;
+    width: 270px;
+    height: 58px;
+    outline: none;
+    border: #EC7979;
+}
+.main-tabs--button:hover {
+    background-color: #eb8686;
+}
+/*----фото freedom-------*/
+.main-tabs--image {
+    display: flexbox;
+    justify-content: end;
+    margin: 0 0 0 30px;
+    justify-content: right;    
+}

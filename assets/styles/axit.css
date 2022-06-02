@@ -13,7 +13,10 @@
 }
 .header-logo {
     position: relative;
-    left: 20px;
+    left: 115px;
+}
+.header--nav {
+    margin: 0 190px 0 0;
 }
 .header--nav > a {
     font-family: Open sans;
@@ -21,10 +24,10 @@
     font-size: 14px;
     line-height: 19px;
     color: #fff;
-    margin: 0 70px 0 0;
+    
 }
 .header--nav > a:not(:last-child) {
-    margin: 0 65px 0 0;
+    margin: 0 70px 0 0;
 }
 /*-----main-------*/
 .axit {
@@ -32,35 +35,10 @@
     url(/assets/img/axit/bg.png);
     background-repeat: no-repeat;
 }
-.axit--header {
-    display: flex;
-    height: 75px;
-    background-color: #000000;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    z-index: 3;    
-}
-.header--logo {
-    padding: 20px 0 0 115px;
-}
-.header--nav {
-    display: flex;
-    justify-content: space-between;
-}
-.header--nav-list {
-    display: flex;
-    align-items: center;
-}
-.header--nav-list a {
-    color: #FFFFFF;
-    padding: 0 65px 0 0;
-}
 /*----основная часть---*/
 .axit--main {
     display: flex;
     margin: 0 auto;
-    max-width: 1170px;
     width: 100%;
 }
 .axit--logo {
@@ -172,7 +150,7 @@
 }
 .axit--contacts {
     max-width: 470px;
-    margin: 14px 0 0 50px;
+    margin: 14px 0 0 185px;
 }
 .axit--contacts-title {
     font-family: Open sans;
@@ -195,5 +173,5 @@
     justify-content: space-between;
     max-width: 620px;
     width: 100%;
-    margin: 0 0 0 50px;
+    margin: 0 0 0 55px;
 }
