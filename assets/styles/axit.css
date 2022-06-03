@@ -177,3 +177,68 @@
     width: 100%;
     margin: 0 0 0 55px;
 }
+@media (max-width: 1024px) {
+    .header--nav {
+        margin: 0 20px 0;
+    }
+    .axit--title {
+        font-size: 36px;
+        line-height: 42px;
+        margin: 0 36px 41px 0;
+        max-width: 454px;
+    }
+    .axit--line {
+        width: 115px;
+    }
+    .axit-discription {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 183px;
+        margin: 31px 0;
+    }
+    .axit--logo {
+        margin: 154px 0px 54px 0;
+    }
+    .axit--download {
+        width: 183px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 131px;
+    }
+    .axit-form {
+        max-width: 398px;
+        width: 100%;
+        max-height: 450px;
+        margin: 245px 0 0;
+    }
+    .text-form {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 29px 0 74px;
+    }
+    .axit--social {
+        max-height: 105px;
+        height: 100%;
+    }
+    .axit--contacts {
+        max-width: 402px;
+    }
+    .axit--contacts-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .axit--contacts-subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 32px 0 18px 0;
+    }
+    .axit--contacts-icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 620px;
+        width: 100%;
+        margin: 0 0 0 40px;
+    }
+}

@@ -52,3 +52,16 @@ a {
     color: #86878B;
     text-align: center;
 }
+@media (max-width: 1024px) {
+    .content {
+        max-width: calc(992px + 15px * 2);
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto; 
+    }
+    main {
+        max-width: calc(1024px + 15px * 2);
+        width: 100%;
+        margin: 0 auto;
+    }
+}

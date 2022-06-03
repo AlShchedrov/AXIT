@@ -1,9 +1,3 @@
-.content {
-	max-width: calc(1170px + 15px * 2);
-	padding: 0 15px;
-	margin: 0 auto;
-}
-
 .tabs {
 	padding: 99px 0 50px;
 	min-height: 100vh;
@@ -87,4 +81,27 @@
 
 .tabs--info > img {
 	margin: 0 0 0 30px;
+}
+@media (max-width: 1024px) {
+	.tabs--info > img {
+		width: 398px;
+		height: 385px;
+	}
+	.tabs {
+		padding: 50px 0 50px;
+	}
+	.tabs--switcher-button {
+		width: 156px;
+	}
+	.tabs--switcher-line {
+		width: calc(100% - (156px * 2) - 170px);
+	}
+	.tabs--info-title {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.tabs--info-description {
+		font-size: 14px;
+		line-height: 16px;
+	}
 }
