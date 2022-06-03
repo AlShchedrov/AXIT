@@ -1,103 +1,90 @@
-.tabs--list {
-    display: flex;
-    justify-content: start;   
-    padding: 109px 0 0;
+.content {
+	max-width: calc(1170px + 15px * 2);
+	padding: 0 15px;
+	margin: 0 auto;
 }
-/*-----таб ссылки-----*/
-.tabs--link-active {
-    display: block;
-    font-family: Open Sans;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #333;
-    width: 150px;    
-    padding: 0 0 0 50px;
-    border-left: 1px solid #C6CBCD;
-    border-top: 1px solid #C6CBCD;
-    border-right: 1px solid #C6CBCD;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;    
+
+.tabs {
+	padding: 99px 0 50px;
+	min-height: 100vh;
 }
-.tabs--link-second {
-    display: block;
-    font-family: Open Sans;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #333;
-    width: 265px;
-    padding-left: 90px;
-    border-bottom: 1px solid #C6CBCD;
+
+.tabs--switcher {
+	list-style: none;
+	font-size: 0;
 }
-.tabs--link-third {
-    display: block;
-    font-family: Open Sans;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #333;
-    width: 755px;
-    padding-left: 10px;
-    border-bottom: 1px solid #C6CBCD;
+
+.tabs--switcher > li {
+	display: inline-block;
 }
-.main-tabs--info {
-    display: inline-block;
-    padding: 27px 20px 27px 74px;
-    vertical-align: top;
+
+.tabs--switcher-button {
+	width: 184px;
+	height: 40px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #c6cbcd;
+	text-transform: uppercase;
 }
-/*-----основной контент-------*/
-.main-tabs {    
-    display: flex;
-    justify-content: space-between;
-    border-left: 1px solid #C6CBCD;
-    border-bottom: 1px solid #C6CBCD;
-    border-right: 1px solid #C6CBCD;
+
+.active {
+	border-radius: 5px 5px 0px 0px;
+	border: 1px solid #c6cbcd;
+	border-bottom: none;
+	width: 203px;
 }
-/*----заголовок--------*/
-.main-tabs--title {
-    display: flex;
-    max-width: 570px;margin: 47px 0;
-    text-align: center;
-    align-items: center; 
-    font-family: Open Sans;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 40.85px;
-    color: #000;
+
+.tabs--switcher-line {
+	border-bottom: 1px solid #c6cbcd;
+	width: calc(100% - (184px * 2) - 203px);
+	vertical-align: bottom;
 }
-/*------подзаголовок------*/
-.main-tabs--subtitle {
-    display: flex;
-    max-width: 570px;
-    margin: 0 0 27px;
-    align-items: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21.13px;
-    color: #000;    
+
+.tabs--info {
+	border: 1px solid #c6cbcd;
+	border-top: none;
+	text-align: end;
 }
-/*-----кнопка download------*/
-.main-tabs--button {   
-    font-family: Open Sans;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    color: #fff;
-    background-color: #EC7979;
-    width: 270px;
-    height: 58px;
-    outline: none;
-    border: #EC7979;
+
+.tabs--info-about {
+	display: inline-block;
+	max-width: 570px;
+	width: 100%;
+	vertical-align: top;
+	text-align: start;
+	padding: 32px 0 0;
 }
-.main-tabs--button:hover {
-    background-color: #eb8686;
+
+.tabs--info-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 41px;
+	color: #000000;
 }
-/*----фото freedom-------*/
-.main-tabs--image {
-    display: flexbox;
-    justify-content: end;
-    margin: 0 0 0 30px;
-    justify-content: right;    
+
+.tabs--info-description {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+
+.tabs--info-download {
+	width: 270px;
+	height: 58px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	color: #ffffff;
+	background-color: #ec7979;
+	border: none;
+	outline: none;
+	margin: 27px 0 0;
+}
+
+.tabs--info > img {
+	margin: 0 0 0 30px;
 }
