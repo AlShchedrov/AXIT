@@ -70,14 +70,14 @@
 }
 @media (max-width: 1024px) {
     .contact--input {   
-        width: 486px; 
+        max-width: 486px; 
     }
     .contact--form-message {
-        width: 486px; 
+        max-width: 486px; 
     }
     .contact--button {
-        max-width: 318px;
-        max-height: 58px;      
+        width: 318px;
+        height: 58px;      
     }
     /*----footer----*/
     .contacts--links svg {
