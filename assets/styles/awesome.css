@@ -11,7 +11,15 @@
     margin: 0 auto;
 }
 .awesome-main--text {
-    margin: 0 0 58px;    
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 58px;
+    align-items: center;
+}
+.awesome-main--text > img {
+    max-width: 92px;
+    max-height: 92px;
+    margin-bottom: 20px;
 }
 
 .awesome-main--title {
@@ -24,9 +32,9 @@
     margin: 0 0 40px 0;
 }
 .awesome-main--title {
-    width: 369px;
-    height: 100px;
-    margin: 0 auto;
+    max-width: 369px;
+    max-height: 100px;
+    margin: 0 auto 40px;
 }
 .awesome--description {
     font-family: Raleway;
