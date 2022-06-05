@@ -69,8 +69,8 @@
         line-height: 24px;
     }
     .worker--about-icon {
-        max-width: 63px;
-        max-height: 63px;
+        width: 63px;
+        height: 63px;
     }
     .worker--about-profession {
         font-size: 14px;
