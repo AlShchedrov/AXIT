@@ -44,3 +44,58 @@
     color: #000;
     text-align: center;
 }
+@media (max-width: 1024px) {
+    .awesome-main--text {
+        margin: 0 0 68px;    
+        padding-right: 20px;
+    }
+    .awesome-main--text:last-child {  
+        padding-right: 0;
+    }    
+    .awesome-main--title {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 40px 0;
+    }
+    .awesome-main--title {
+        max-width: 318px;
+        max-height: 64px;
+    }
+    .awesome--description {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .awesome-icons img {
+        width: 79.55px;
+        height: 79.55px;
+    }
+}
+@media (max-width: 768px) {
+    .awesome-icons {
+        display: flex;
+        justify-content: space-around;    
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*-----текст под иконками----*/
+    .awesome-main {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .awesome-main--text {
+        margin: 0 0 58px;    
+    }
+    
+    .awesome-main--title {
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 288px;
+        max-height: 80px;
+        margin: 0 auto;
+    }
+    .awesome--description {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
