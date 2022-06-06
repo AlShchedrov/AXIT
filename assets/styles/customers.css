@@ -54,3 +54,41 @@
     transform: scale(1.2);
     transition: 0.5s;
 }
+@media (max-width: 1024px) {
+    .workers--feedback-text { 
+        max-width: 317px;
+        padding: 50px 10px;
+        font-size: 14px;   
+        line-height: 16px;  
+    }
+    .worker--about {
+        max-width: 317px;
+    }
+    .worker--about-name {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .worker--about-icon {
+        width: 63px;
+        height: 63px;
+    }
+    .worker--about-profession {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .worker--about-icon {
+        max-width: 57px;
+        max-height: 57px;
+    }
+    .workers--feedback {
+        margin: 0 auto;
+    }
+    .workers--feedback:nth-child(2) {
+        display: none;
+    }
+    .workers--feedback:nth-child(3) {
+        display: none;
+    }
+}
