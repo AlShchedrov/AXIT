@@ -40,11 +40,11 @@
 /*----основная часть---*/
 .axit--main {
     display: flex;
-    margin: 0 auto;
+    padding: 245px 0 0;
     width: 100%;
 }
 .axit--logo {
-    margin: 230px 0 72px;
+    margin-bottom: 72px;
 }
 .axit--title {
     font-family: Raleway;
@@ -91,7 +91,6 @@
     max-width: 470px;
     width: 100%;
     max-height: 450px;
-    margin: 245px 0 0 0;
     border-radius: 5px;
 }
 /*текст-над-формой------*/
@@ -150,9 +149,16 @@
     max-height: 140px;
     height: 100%;
 }
+.content--social {
+    display: flex;
+    max-width: calc(1170px + 15px * 2);
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto; 
+}
 .axit--contacts {
     max-width: 470px;
-    margin: 14px 0 0 185px;
+    margin: 14px 0 0;
 }
 .axit--contacts-title {
     font-family: Open sans;
@@ -245,7 +251,7 @@
     }
     /*-----social media-------*/
     .axit--social {
-        max-height: 105px;
+        max-height: 100%;
     }
     .axit--contacts {
         max-width: 402px;
@@ -278,7 +284,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }    
+    }  
+    
     .axit-burger {
         display: block;
         margin-right: 35px;
@@ -292,7 +299,8 @@
     .axit--main {
         display: flex;
         flex-direction: column;
-        margin-bottom: 80px;
+        margin: 0 0 50px;
+        padding-top: 84px;
     }
     .axit--logo {
         display: none;
@@ -312,6 +320,7 @@
         font-size: 14px;
         line-height: 16px;
         text-align: center;
+        margin: 0 auto 42px;
     }
     .axit--download {
         width: 280px;
@@ -342,9 +351,10 @@
         margin-top: 40px;
     }
     /*-----social media-------*/
-    .axit--social {
-        flex-direction: column;
+    .content--social {
+        flex-direction: column;        
         max-height: 239px;
+        height: 100%;
     }
     .axit--contacts {
         max-width: 320px;

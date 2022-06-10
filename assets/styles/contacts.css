@@ -33,6 +33,7 @@
     justify-content: center;
 }
 .contact--button {
+    display: block;
     font-family: Open Sans;
     font-weight: 600;
     font-size: 18px;
@@ -43,7 +44,7 @@
     height: 58px;
     border: none;
 	outline: none;
-    margin: 50px 0;        
+    margin: 50px auto;        
 }
 /*----footer----*/
 
